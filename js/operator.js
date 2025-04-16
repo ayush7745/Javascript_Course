@@ -45,3 +45,13 @@
 //  console.log("5==5",a==b); //true //this shows that if we compare any no.of different datatype,we get result on the base of data only
 
  //equal to and datatype ===
+
+ //unary operators
+// post increment-: a++ ,a-- (post increment mai phle purani wali value rhti hai aur baad m next line m update kr di jati h)
+let a=7;
+let b=2;
+console.log("a=",a, "&b=",b);
+console.log("a++=",a++);
+console.log("a=",a);
+// pre increment-: ++a,--a(pre increment mai ek baar mai he value update ho jati h)
+console.log("--a=",--a);
